@@ -17,10 +17,21 @@ h1{
 margin-bottom: 0px;
 }
 #cabecera{
+    
     color: #F4D03F;
     background-color: rgba(0, 0, 0, 0.4);
     padding:10px 0 10px 0;
    
+}
+
+#futer{
+
+    padding-left:90px ;
+    background-image: url('/im/carlos.jpg');
+    background-size: 70px;
+    background-repeat: no-repeat;
+   background-position-y: center;
+   background-position-x: 20px;
 }
 
 
