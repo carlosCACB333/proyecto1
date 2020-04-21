@@ -36,3 +36,8 @@ img{
     width: inherit;
     border-radius: 20PX;
 }
+
+#footer{
+    padding: 20px;
+   border: 2px rgb(3, 15, 26,0.5) solid;
+}
