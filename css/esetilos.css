@@ -13,25 +13,36 @@ body{
     text-align: center;
     border-radius: 20px;
 }
-h1{
-margin-bottom: 0px;
-}
-#cabecera{
-    
+
+
+#cabecera{ 
     color: #F4D03F;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding:10px 0 10px 0;
-   
 }
+
 
 #header{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 0 10px 0;
+    margin: 10px -20px 10px -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header div{
+   display: inline-block;
+   text-align: left;
+}
 
-    padding-left:90px ;
-    background-image: url('/im/carlos.jpg');
-    background-size: 70px;
-    background-repeat: no-repeat;
-   background-position-y: center;
-   background-position-x: 20px;
+#header h1,p{
+    padding: 0;
+    margin: 0;
+}
+
+#header img{
+ float: left;
+ width: 100px;
+ border-radius: 50%;
+ margin-right: 10px;
 }
 
 
